@@ -15,6 +15,8 @@ class Home extends Component {
         })
     }
 
+
+    // Do not change the render function
     render() {
         return <div className="relative w-full">
             <div className="search-input w-full">

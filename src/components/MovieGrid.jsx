@@ -20,7 +20,7 @@ function MovieGrid({ results }) {
                 release_date,
                 overview },index) => (
                 <div
-                    className="bg-gray-600 p-2 rounded-lg"
+                    className="bg-gray-600 p-2 rounded-lg movie-item"
                     key={id}>
                     <img src={'https://image.tmdb.org/t/p/w500' + poster_path} alt={original_title} />
                     <div className='font-bold text-white mt-2'>{original_title}</div>
